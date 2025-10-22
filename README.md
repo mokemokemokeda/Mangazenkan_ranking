@@ -1,0 +1,1 @@
+# Mangazenkan_ranking
