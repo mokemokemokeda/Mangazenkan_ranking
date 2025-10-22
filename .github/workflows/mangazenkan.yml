@@ -5,6 +5,9 @@ on:
     - cron: "0 6 * * 3"  # 毎週水曜6:00(JST)
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
